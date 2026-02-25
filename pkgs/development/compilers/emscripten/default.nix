@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
     name = "emscripten-node-modules-${version}";
     inherit pname version src;
 
-    npmDepsHash = lib.fakeSha256;
+    npmDepsHash = "sha256-comfbdbnxINo7aZsx19lKKwAommfSob79LZLCTpD9Qc=";
 
     dontBuild = true;
 
